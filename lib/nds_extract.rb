@@ -47,3 +47,4 @@ def gross_for_director(director_data)
 pp directors_database
 
 
+p total 
