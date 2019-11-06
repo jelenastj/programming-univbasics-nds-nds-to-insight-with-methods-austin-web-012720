@@ -11,9 +11,16 @@ def directors_totals(nds)
   result = {}
   nil
   index = 0 
+  director = nds[name_index][:name]
+  result[director] = 0
   while index< nds.length do
-    
-    # result[nds[index][:name]]=
+    result[director] += gross_for_director(director_data)
+
+    name_index += 1
+  end
+
+  result
+end
     
      sum = 0 
      movie_number = 0 
