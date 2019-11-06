@@ -10,8 +10,11 @@ def directors_totals(nds)
   
   result = {}
   nil
-  
-  
+  first_index = 0 
+  while first_index<nds.length do
+    second_index = 0 
+    total = 0 
+    
   
   
   
@@ -33,8 +36,8 @@ while i < nds.length do
   result[nds[i][:name]] = total
   i += 1 
   
-end 
-puts result
+
+-----------
   index = 0 
   while index< nds.length do
     
