@@ -15,31 +15,19 @@ def directors_totals(nds)
     second_index = 0 
     total = 0 
     while second_index < nds[first_index][:movies].length do
-      total+=gross_for_director(data)
+      total+=gross_for_director(director_data)
+      second_index+=1 
+    end
+     result[nds[first_index][:name]] = total
+     first_index+=1
     
   
   
   
   
   
-  
-  i = 0 #which movie director's hash we're on
-  
-while i < nds.length do
-  
-  j = 0 # which key in each director's hash
-  total = 0
-  
-  while j < nds[i][:movies].length do
-    total += nds[i][:movies][j][:worldwide_gross].to_i
-    j += 1 
-    
-  end
-  result[nds[i][:name]] = total
-  i += 1 
   
 
------------
   index = 0 
   while index< nds.length do
     
