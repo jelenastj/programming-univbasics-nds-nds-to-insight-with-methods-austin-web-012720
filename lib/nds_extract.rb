@@ -22,20 +22,7 @@ def directors_totals(nds)
   result
 end
     
-     sum = 0 
-     movie_number = 0 
-    
-    while movie_number <nds[index][:movies].length do
      
-        sum+= nds[index][:movies][movie_number][:worldwide_gross]
-        movie_number +=1 
-      end
-      result[nds[index][:name]]= sum 
-      
-      index += 1 
-      end
- result
-end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
