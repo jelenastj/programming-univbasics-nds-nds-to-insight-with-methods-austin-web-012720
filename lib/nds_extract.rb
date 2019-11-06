@@ -47,7 +47,7 @@ end
 pp directors_database
 gross_for_director
 gross_for_director(director_data)
-
+total
 
 
 
