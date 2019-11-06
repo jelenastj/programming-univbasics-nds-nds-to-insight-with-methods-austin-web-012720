@@ -16,7 +16,6 @@ def directors_totals(nds)
     total = 0 
    
       total+=gross_for_director(nds[first_index])
-      second_index+=1 
     end
      result[nds[first_index][:name]] = total
      first_index+=1
