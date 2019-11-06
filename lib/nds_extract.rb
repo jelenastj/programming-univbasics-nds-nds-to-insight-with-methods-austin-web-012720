@@ -13,7 +13,7 @@ def directors_totals(nds)
   index = 0 
   while index< nds.length do
     
-    # result[nds[index][:name]]=gross_for_director(director_data)
+    # result[nds[index][:name]]=
     
      sum = 0 
      movie_number = 0 
