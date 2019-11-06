@@ -12,10 +12,10 @@ def directors_totals(nds)
   nil
   first_index = 0 
   while first_index<nds.length do
-    second_index = 0 
+   
     total = 0 
-    while second_index < nds[first_index][:movies].length do
-      total+=gross_for_director(nds[second_index])
+   
+      total+=gross_for_director(nds[first_index])
       second_index+=1 
     end
      result[nds[first_index][:name]] = total
