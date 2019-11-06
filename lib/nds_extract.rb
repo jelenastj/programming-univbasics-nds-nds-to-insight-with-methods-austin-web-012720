@@ -20,6 +20,9 @@ def directors_totals(nds)
     end
      result[nds[first_index][:name]] = total
      first_index+=1
+   end
+   result
+ end
     
   
   
